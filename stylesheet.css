@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: goldman;
     background: url(https://cdn.pixabay.com/photo/2017/07/10/23/45/cubes-2492010_640.jpg);
@@ -79,3 +83,36 @@ h6{
 a{
     color: whitesmoke;
 }
+
+a .btn {
+    color: black;
+    border-color: snow;
+}
+
+a .btn:hover {
+    background-color: slateblue;
+    border-color: slateblue;
+    color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: blue; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 187); 
+  }
